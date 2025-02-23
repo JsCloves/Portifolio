@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body {
+   background-color: black;
+   background-image: url('Conteudo/pexels-evie-shaffer-1259279-4004374.jpg');
+   background-blend-mode: multiply 90%;
+   background-size: 2500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   background: linear-gradient(to left, #000, transparent);
+}
+
+header > nav {
+   background: linear-gradient(to left, #000, transparent);
+   height: 10px;
+   
+}
+
+header > nav > a {
+   background-color: rgb(0, 0, 0);
+   color: rgb(113, 113, 113);
+   text-decoration: none;
+   border: 1px solid rgb(0, 0, 0);
+   font-size: 20px;
+   margin: 10px;
+   
+}
+
+a:hover {
+   color: rgb(255, 255, 255);
+}
+
+main {
+   color: white;
+   
+   padding: 20px;
+   width: 100%;
+}
+
+.ConteudoP > div {
+   margin-right: 10%;
+   margin-left:0px;
+   font-size: auto;
+   text-shadow: 5px 5px 5px black;
+}
+
+.ConteudoP {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 10px;
+}
+
+.ConteudoP > img {
+   width: 500px;
+   height: auto;
+
+   border: 2px solid black;
+   min-width: 200px;
+   max-width: 700px;
+
+   margin-right: 5%;
+
+   box-shadow: 2px 2px 5px black;
+   flex: 1;
+}
+
+footer {
+   background: linear-gradient(to right, #000, transparent);
+   width: 100%;
+   color:  white;
+   position: fixed;
+   bottom: 0px;
+}
+
